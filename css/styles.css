@@ -1,0 +1,237 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0%;
+}
+
+.main-page {
+  width: 100%;
+  background: linear-gradient(90deg, #fbfbfb 0%, #abe1ff 100%);
+}
+
+.main-page-text-container {
+  border-radius: 40px;
+  background: #fff;
+  padding: 60px;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1170px;
+  position: relative;
+}
+
+.main-page-hello-text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #1a1919;
+  margin-top: 0;
+  margin-bottom: 48px;
+}
+
+.main-page-title {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 30%;
+  color: #1a1919;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+
+.main-page-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #1a1919;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+
+.main-page-btn {
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+  background: #ff8e3d;
+  padding-left: 24px;
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.goit-logo {
+  position: absolute;
+  top: 32px;
+  left: 0;
+}
+
+.facts-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 150%;
+  color: #1a1919;
+  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  margin-bottom: 32px;
+  margin-top: 0;
+}
+
+.facts {
+  padding-top: 48px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.facts-trezub {
+  padding-bottom: 24px;
+}
+
+.facts-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #1a1919;
+  width: 772px;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.facts-item-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  text-align: center;
+  color: #1a1919;
+  margin-bottom: 32px;
+  margin-top: 0;
+}
+
+.facts-item-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #1a1919;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.facts-item {
+  width: calc((100% / 3) - (24px * 2) / 3);
+}
+
+.form-container {
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #fbfbfb 0%, #abe1ff 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  background: #fff;
+  border-radius: 40px;
+  padding: 60px;
+  padding-top: 32x;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.form-tryzub {
+  margin-bottom: 32px;
+}
+
+.form-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  text-align: center;
+  color: #1a1919;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.form-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #1a1919;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form-field-label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #1a1919;
+  margin-bottom: 8px;
+}
+
+.form-field-name {
+  margin-bottom: 24px;
+}
+
+.form-input {
+  border: 1px solid #005bbb;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #1a1919;
+  padding-top: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-button {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+  cursor: pointer;
+  padding-top: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  background-color: #ff8e3d;
+  border-radius: 10px;
+  border: none;
+}
+
+.form-field-email {
+  margin-bottom: 48px;
+}
+
+.gus-anim {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
